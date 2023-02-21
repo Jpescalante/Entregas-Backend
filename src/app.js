@@ -1,7 +1,7 @@
 import ProductManager from "./ProductManager.js";
 import express from "express"
 
-const manager = new ProductManager("./products.json")
+const manager = new ProductManager("src/products.json")
 // await manager.addProduct("Gin", "Descripcion Gin", 20000, "thumbail", "code1", 10)
 // await manager.addProduct("Whisky", "Descripcion Whisky", 10000, "thumbail", "code2", 20)
 // await manager.addProduct("Vino", "Descripcion vino", 5000, "thumbail", "code3", 30)
